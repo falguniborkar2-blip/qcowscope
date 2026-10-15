@@ -1,0 +1,5 @@
+qcowscope
+qcowscope-asan
+__pycache__/
+.pytest_cache/
+*.qcow2
