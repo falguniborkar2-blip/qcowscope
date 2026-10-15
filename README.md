@@ -36,7 +36,7 @@ zero clusters, extended L2 entries, and the snapshot table.
 | Header extensions | backing file format, feature name table, bitmaps, encryption header, data file |
 | Backing file name | backing file and full chain (`qcowscope chain`) with loop detection |
 | L1 / L2 tables | allocated, compressed and zero clusters, counted the same way as `qemu-img check` |
-| Snapshot table | ID, name, date, VM state size, guest clock, icount ([work in progress](docs/snapshot-table.md)) |
+| Snapshot table | ID, name, date, VM state size, guest clock, icount |
 
 `qcowscope info --json` uses the same key names as `qemu-img info --output=json`.
 
@@ -85,7 +85,6 @@ make asan                     # the same tests under AddressSanitizer + UBSan
 
 ## Limitations / next steps
 
-- Snapshot listing: [in progress](docs/snapshot-table.md)
 - Refcount table checking (a mini `qemu-img check`)
 - Bitmap extension details
 - Support for LUKS-encrypted images is limited to detecting them
