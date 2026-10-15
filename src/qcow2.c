@@ -4,7 +4,7 @@
  * Every offset and length read from the image is treated as untrusted:
  * it is checked against the file size before it is used.
  *
- * SPDX-License-Identifier: GPL-2.0-or-later
+ * SPDX-License-Identifier: Apache-2.0
  */
 #include "qcow2.h"
 

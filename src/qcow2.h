@@ -3,7 +3,7 @@
  *
  * Format reference: https://www.qemu.org/docs/master/interop/qcow2.html
  *
- * SPDX-License-Identifier: GPL-2.0-or-later
+ * SPDX-License-Identifier: Apache-2.0
  */
 #ifndef QCOWSCOPE_QCOW2_H
 #define QCOWSCOPE_QCOW2_H

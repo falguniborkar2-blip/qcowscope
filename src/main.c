@@ -7,7 +7,7 @@
  *
  * Exit status: 0 success, 1 invalid or corrupt image, 2 usage or I/O error.
  *
- * SPDX-License-Identifier: GPL-2.0-or-later
+ * SPDX-License-Identifier: Apache-2.0
  */
 #include "qcow2.h"
 

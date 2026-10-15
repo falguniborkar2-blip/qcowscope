@@ -91,4 +91,4 @@ make asan                     # the same tests under AddressSanitizer + UBSan
 
 ## License
 
-GPL-2.0-or-later, the same as QEMU.
+Apache-2.0. See LICENSE and NOTICE.
